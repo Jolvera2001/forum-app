@@ -1,0 +1,6 @@
+﻿services:
+  forum-app:
+    image: forum-app
+    build:
+      context: .
+      dockerfile: forum-app/Dockerfile
