@@ -1,6 +1,15 @@
 using forumApp.Components;
+using forumApp.Repository;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// db context
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 0, 28))
+    ));
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
