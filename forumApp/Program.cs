@@ -1,4 +1,4 @@
-using forum_app.Components;
+using forumApp.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
