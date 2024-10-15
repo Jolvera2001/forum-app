@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forum-app", "forum-app\forum-app.csproj", "{C25C121B-2049-4E1D-8DC1-3C7D22942356}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forumApp", "forumApp\forumApp.csproj", "{C25C121B-2049-4E1D-8DC1-3C7D22942356}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{186F8DDB-59CE-4738-9977-E52252A1ECF1}"
 	ProjectSection(SolutionItems) = preProject
